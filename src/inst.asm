@@ -89,16 +89,18 @@ igual:
 
 fin_cmp:
 
-; ===== BUCLE SUMA =====
-    XOR ax, ax
-    MOV cx, 5
-    MOV bx, 1
 
-bucle_suma:
-    ADD ax, bx
+
+; ===== FACTORIAL =====
+MOV ax, 1
+MOV cx, 5
+MOV bx, 1
+
+bucle_fact:
+    MUL bx
     INC bx
-    LOOP bucle_suma
-    ; AX = 15
+    LOOP bucle_fact
+; AX = 120
 
 ; ===== FIN =====
     INT 20h
