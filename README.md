@@ -14,14 +14,16 @@ src/        → lab6_instrucciones.asm
 bin/        → lab6_instrucciones.com
 capturas/   → evidencias
 README.md
-```
+
 ## 1: Configuración del entorno
 
 Se configuró el entorno, se creó la estructura del proyecto y se compiló el programa con NASM en DOSBox.
 
-![Checkpoint 1](capturas/checkpoint1.png)
+![Checkpoint 1](Capturas/checkpoint1.png)
 
+## 2: Ejecución en DEBUG
 
+Se ejecutó el programa en DEBUG y se verificó el resultado mediante el comando t, obteniendo AX=0039h (57 decimal) junto con los flags.
 
-
+![Checkpoint 2](Capturas/checkpoint2.png)
 
