@@ -19,7 +19,7 @@ README.md
 
 Se configuró el entorno, se creó la estructura del proyecto y se compiló el programa con NASM en DOSBox.
 
-![Checkpoint 1](Capturas/checkpoint1.png)
+![Checkpoint 1](Capturas/checkpoint_1.png)
 
 ## 2: Ejecución en DEBUG
 
